@@ -174,10 +174,12 @@
   });
 
 
-  // Initiate venobox (lightbox feature used in portofilo)
+  // Initiate venobox (lightbox feature used in ad UPDATE)
   $(document).ready(function() {
     $('.venobox').venobox();
   });
+
+  
 
   // Clients carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
@@ -196,6 +198,5 @@
       }
     }
   });
-
 
 })(jQuery);
